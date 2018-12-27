@@ -1,7 +1,7 @@
 # Here is my first solution in Python where I avoided installing any external libraries
 # Note I usually use C++ but it was fun to try out Python!
 # Looking forward to trying out new library functions to make a prettier solution haha
-# Going to experiment with NumPy and Mathplotlib as my next step!
+# Going to experiment with NumPy and Matplotlib as my next step!
 
 import csv
 from collections import namedtuple
