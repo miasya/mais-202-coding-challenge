@@ -1,32 +1,13 @@
 # MAIS 202 - Application Coding Challenge
 
-Loans are an extremely powerful financial instrument; they have the potential to create opportunities and foster growth. To learn more about loans and what influence them, we have provided you with a csv file called *data.csv* that contains information about loans such as their interest rate, purpose, length, grade, and amount in a comma seperated format as shown below.
+## Storytime
+So coming from C++, I didn't know like ANY Python libraries, so I went through many iterations in this challenge. The first file demonstrates my initial brute force solution with no external libraries and limited familiarity with Python data structures. Within, I parse the data using csv.DictReader() and manipulate tuples to produce my desired output. The next file uses the same idea for data processing, but includes a visualization of the output using a bar chart implemented with Matplotlib. Now satisfied with my output, my next step was to improve the design of the internal processes of the program. More specifically, I searched for array manipulation libraries and came across NumPy and Pandas, which both appeared to be widely used and supported. My final decision was to use Pandas (which is actually based on NumPy) because the dataframes offered more functionality and because I really like Pandas.
 
-<img width="645" alt="screen shot 2018-11-20 at 12 46 36 pm" src="https://user-images.githubusercontent.com/10730760/48796196-fc966b80-eccc-11e8-838e-720310b743c3.png">
+I MEAN LOOK AT HOW CUTE THEY ARE
+![Cute sleeping Panda](https://66.media.tumblr.com/46803b851e1f21bb16d1b651b9f7076f/tumblr_nit4db31XG1qi4ucgo1_500.jpg)
 
-## Instructions
-
-Your challenge will be as follows:
-
-1. Make a copy of this repository on your own personal github account (you can fork or download it). 
-
-2. Write a python script which loads the dataset, parses the information, and uses it to calculate the average interest rates for each of the listed purposes. 
-
-3. Plot the results onto a graph.
-
-## Sample Results
-
-The output of your script should be similar to the results shown below. 
-
-<div style="display=block;">
-
-<img width="200" alt="screen shot 2018-11-20 at 12 53 02 pm" src="https://user-images.githubusercontent.com/10730760/48796116-c1943800-eccc-11e8-8238-c040f817698d.png" style="float=left;">
-
-<img width="635" alt="screen shot 2018-11-20 at 2 04 19 pm" src="https://user-images.githubusercontent.com/10730760/48796324-4717e800-eccd-11e8-9b14-a479928905f3.png" style="float=left;">
-
-</div>
-
-
-All your source code should be pushed to the personal repository which you have created in step 1, along any necessary documentation explaining how to run your script. Be sure to understand your full solution process, as we will be asking you to explain your results in the interview.
-
-The url to the repository should be included in your application and made public by January 1st, 2019 in order for it to be evaluated. If you have any questions regarding this challenge, please reach out to us through our Facebook page. 
+# Tl;dr "I just want the instructions"
+## How to Run
+Run file: "CSV_reader_with_pandas_and_matplotlib.py"
+Make sure you have Pandas and Matplotlib installed & make sure that "data.csv" is in the same folder as the .py file.
+Note that a screenshot of the output has been included for your convenience :)
